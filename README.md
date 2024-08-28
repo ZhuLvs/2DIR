@@ -36,7 +36,7 @@ bash train.sh
 bash train_unknown_protein.sh
 ```
 ## Inference
-
+After inference is complete, the predicted results need to be trimmed based on the protein length, following the format provided in data/output.txt.
 ### Known Length Protein
 ```bash
 bash test.sh
