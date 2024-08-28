@@ -3,6 +3,7 @@ from torch.utils.data import DataLoader
 import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
 from model import CustomDeepLabV3
+#from feature_fusion_model import CustomDeepLabV3
 from Dataset import CustomDataset, transform, val_transform
 from Maskloss import MaskedL1Loss
 from Inference import train_one_epoch, evaluate
