@@ -13,16 +13,5 @@ conda activate 2DIR
 
 pip install -r ./install/requirements.txt
 
-## Quick Start
-
-First, you need to download the training dataset. You can download it from [this link](https://github.com/ZhuLvs/2DIR/tree/main) and save it under the `data` directory. You may manually modify the parameters in `model/main.py`.
-
-## Training
-
-### Known Length Protein
-```bash
-bash train.sh
-
-### Known Length Protein
-```bash
-bash train_unknown_protein.sh
+Quick Start
+First, you need to download the training dataset. You can download it from this link and save it under the data directory. You may manually modify the parameters in model/main.py.
