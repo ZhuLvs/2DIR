@@ -1,5 +1,4 @@
 # 2DIR
-
 2DIR: Predicting protein dynamic structures using two-dimensional infrared spectroscopy, with unknown structures.
 
 ## Requirements
