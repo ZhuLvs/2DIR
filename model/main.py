@@ -9,7 +9,7 @@ from Maskloss import MaskedL1Loss
 from Inference import train_one_epoch, evaluate
 
 if __name__ == '__main__':
-    device = torch.device("cuda:4")
+    device = torch.device("cuda:0")
     model = CustomDeepLabV3().to(device)
     criterion = MaskedL1Loss()
     optimizer = torch.optim.Adam([
