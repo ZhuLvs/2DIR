@@ -39,7 +39,7 @@ bash train.sh
 bash train_unknown_protein.sh
 ```
 ## Inference
-After inference is complete, the predicted results need to be trimmed based on the protein length, following the format provided in data/output.txt.
+After inference is complete, the predicted results need to be trimmed based on the protein length, following the format provided in `data/output.txt`.
 ### Known Length Protein
 ```bash
 bash test.sh
@@ -52,6 +52,6 @@ bash test_len.py
 
 
 
-To generate the protein backbone structure from the protein residue distance matrix, please use the gradient descent algorithm available in the PyRosetta protocols, providing the predicted residue distances from the model and constraints from residue_constants.py.
+To generate the protein backbone structure from the protein residue distance matrix, please use the gradient descent algorithm available in the `PyRosetta` protocols, providing the predicted residue distances from the model and constraints from `residue_constants.py`.
 
-For obtaining the amino acid sequence of unknown proteins, it is recommended to use the backbone structure as input for ProteinMPNN. The model typically converges after around 300 epochs.
+For obtaining the amino acid sequence of unknown proteins, it is recommended to use the backbone structure as input for `ProteinMPNN`. The model typically converges after around 300 epochs.
