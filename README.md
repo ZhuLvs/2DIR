@@ -9,6 +9,11 @@
 Operating System: Linux (Recommended)  
 No non-standard hardware is required.
 
+## Getting started
+To get started using 2DIR, clone the repo:
+```bash
+
+```
 ## Install Dependencies
 ```bash
 conda create -n 2DIR python=3.8
