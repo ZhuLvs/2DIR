@@ -24,6 +24,7 @@ First, you need to download the training dataset. You can download it from [this
 You may manually modify the parameters in `model/main.py`.
 
 ## Training
+Before training begins, the protein residue distance matrix needs to be padded to ensure uniform size, which facilitates model processing, accelerates training, and so on. The padding code can be found in the helper_scripts directory and can be modified as needed.
 
 ### Known Length Protein
 ```bash
@@ -45,3 +46,9 @@ For proteins with unknown lengths, you need to run model/pre_length.py to predic
 ```bash
 bash test_len.py
 ```
+
+
+
+To generate the protein backbone structure from the protein residue distance matrix, please use the gradient descent algorithm available in the PyRosetta protocols, providing the predicted residue distances from the model and constraints from residue_constants.py.
+
+For obtaining the amino acid sequence of unknown proteins, it is recommended to use the backbone structure as input for ProteinMPNN. The model typically converges after around 300 epochs.
