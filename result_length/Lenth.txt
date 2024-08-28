@@ -1,0 +1,1 @@
+The predicted length of the unknown protein is located at the 1st row and 1st column of the matrix. The role of multitasking is to enhance the accuracy of protein length prediction.
