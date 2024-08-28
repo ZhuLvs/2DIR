@@ -9,6 +9,7 @@ No non-standard hardware is required.
 ## Install Dependencies
 ```bash
 conda create -n 2DIR python=3.8
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda activate 2DIR
 
 pip install -r ./install/requirements.txt
