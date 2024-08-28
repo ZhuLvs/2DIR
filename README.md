@@ -20,7 +20,9 @@ pip install -r ./install/requirements.txt
 
 ## Quick Start
 
-First, you need to download the training dataset. You can download it from [this link](https://github.com/ZhuLvs/2DIR/tree/main) and save it under the `data` directory. 
+First, you need to download the training dataset. You can download it from this link (it's quite large, 1.1GB) and save it under the data directory.
+
+The validation dataset link is this link. 
 
 You may manually modify the parameters in `model/main.py`.
 
