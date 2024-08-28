@@ -12,7 +12,8 @@ No non-standard hardware is required.
 ## Getting started
 To get started using 2DIR, clone the repo:
 ```bash
-
+git clone https://github.com/ZhuLvs/2DIR.git
+cd 2DIR
 ```
 ## Install Dependencies
 ```bash
