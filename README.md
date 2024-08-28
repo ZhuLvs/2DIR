@@ -34,4 +34,14 @@ bash train.sh
 ```bash
 bash train_unknown_protein.sh
 ```
+## Inference
 
+### Known Length Protein
+```bash
+bash test.sh
+```
+### Unknown Length Protein
+For proteins with unknown lengths, you need to run model/pre_length.py to predict the protein length, and then refer to the scripts in the helper_scripts directory for trimming and processing.
+```bash
+bash test_len.py
+```
