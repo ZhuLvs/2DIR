@@ -27,7 +27,7 @@ The validation dataset link is [this link](https://zenodo.org/records/13382753).
 You may manually modify the parameters in `model/main.py`.
 
 ## Training
-Before training begins, the protein residue distance matrix needs to be padded to ensure uniform size, which facilitates model processing, accelerates training, and so on. The padding code can be found in the helper_scripts directory and can be modified as needed.
+Before training begins, the protein residue distance matrix needs to be padded to ensure uniform size, which facilitates model processing, accelerates training, and so on. The padding code can be found in the `helper_scripts` directory and can be modified as needed.
 
 ### Known Length Protein
 ```bash
@@ -45,7 +45,7 @@ After inference is complete, the predicted results need to be trimmed based on t
 bash test.sh
 ```
 ### Unknown Length Protein
-For proteins with unknown lengths, you need to run model/pre_length.py to predict the protein length, and then refer to the scripts in the helper_scripts directory for trimming and processing.
+For proteins with unknown lengths, you need to run `model/pre_length.py` to predict the protein length, and then refer to the scripts in the `helper_scripts` directory for trimming and processing.
 ```bash
 bash test_len.py
 ```
