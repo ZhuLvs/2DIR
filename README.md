@@ -19,16 +19,10 @@ First, you need to download the training dataset. You can download it from [this
 
 You may manually modify the parameters in `model/main.py`.
 
-### Running the Model
+## Training
 
-Once the dataset is downloaded and parameters are set, you can start training the model:
+### Known Length Protein
+```bash
+bash train.sh
 
-1. For known length proteins, run:
-    ```bash
-    bash train.sh
-    ```
-
-2. For unknown length proteins, run:
-    ```bash
-    bash train_unknown_protein.sh
     ```
