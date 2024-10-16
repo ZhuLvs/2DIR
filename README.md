@@ -18,8 +18,8 @@ cd 2DIR
 ## Install Dependencies
 ```bash
 conda create -n 2DIR python=3.8
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 conda activate 2DIR
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
 pip install -r ./install/requirements.txt
 
