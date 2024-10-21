@@ -29,7 +29,7 @@ pip install -r ./install/requirements.txt
 
 ## Quick Start
 
-First, you need to download the training dataset. You can download it from [this link](https://zenodo.org/records/13382835)  (it's quite large, 1.2GB) and save it under the `data` directory.
+First, you need to download the training dataset. You can download it from [this link](https://zenodo.org/records/13382835)  (1.2GB) and save it under the `data` directory.
 
 The validation dataset link is [this link](https://zenodo.org/records/13382753). 
 
