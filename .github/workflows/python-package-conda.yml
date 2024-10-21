@@ -19,27 +19,39 @@ jobs:
     - name: Add conda to system path
       run: |
         echo $CONDA/bin >> $GITHUB_PATH
+    
+    - name: Install Miniconda
+      uses: goanpeca/setup-miniconda@v2
+      with:
+        auto-activate-base: false
 
     - name: Create conda environment
       run: |
+        conda init bash
+        source ~/.bashrc  # This reloads the shell with conda initialized
         conda create -n 2DIR python=3.8 -y
-        conda activate 2DIR
 
-    - name: Install PyTorch and dependencies via conda
+    - name: Activate conda environment and install PyTorch
       run: |
+        source ~/.bashrc
+        conda activate 2DIR
         conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
 
     - name: Install dependencies from requirements.txt
       run: |
+        source ~/.bashrc
+        conda activate 2DIR
         pip install -r ./install/requirements.txt
 
     - name: Lint with flake8
       run: |
+        conda activate 2DIR
         conda install flake8 -y
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
     - name: Test with pytest
       run: |
+        conda activate 2DIR
         conda install pytest -y
         pytest
