@@ -4,6 +4,8 @@
 ![2DIR_model](img/2dir_image.png)
 
 
+## Updated
+Our latest dataset now contains 51,728 different proteins, all sourced from SWISSPROT (AFDB-SWISSPROT). You can find them in the Quick Start section below. You will need to randomly split the dataset into training and test sets yourself.
 
 ## Requirements
 Operating System: Linux (Recommended)  
