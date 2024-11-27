@@ -32,8 +32,8 @@ pip install -r ./install/requirements.txt
 ## Quick Start
 
 First, you need to download the training dataset for 2DIR. [this link](https://zenodo.org/records/14229784)  and save it under the `data` directory.
-train `data/2DIR` `data/contact` (distance map)
-val   `data/valA` `data/valB`    (distance map)
+train `data/2DIR` `data/contact` (distance map),
+val   `data/valA` `data/valB`    (distance map).
 Additional test datasets can be added by the user!
 
 The PDBFliess dataset link is [this link](https://zenodo.org/records/14229812). 
