@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-folder_path = '../data/out'
+folder_path = './data/out'
 
 csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 
