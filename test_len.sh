@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Activate the Python environment
-conda activate 2DIR
+source activate 2DIR
 
 # Run pre.py and pre_length.py in the model directory
 python model/pre.py
