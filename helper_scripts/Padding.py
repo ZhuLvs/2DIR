@@ -30,7 +30,7 @@ def process_folder(input_folder, output_folder):
             processed_data = process_csv(file_path)
             processed_data.to_csv(os.path.join(output_folder, filename), index=False)
 
-input_folder = '../data/contact'
-output_folder = '../data/contact'
+input_folder = './data/contact'
+output_folder = './data/contact'
 
 process_folder(input_folder, output_folder)
