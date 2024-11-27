@@ -47,8 +47,8 @@ if __name__ == '__main__':
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     ])
 
-    img_folder = "./input/valA"
-    output_folder = "./input/out_length"
+    img_folder = "./data/valA"
+    output_folder = "./data/out_length"
         # Create output folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
