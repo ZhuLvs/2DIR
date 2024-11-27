@@ -62,7 +62,7 @@ class MulDataset(Dataset):
             img = None
 
         matrix = pd.read_csv(csv_path, skiprows=1, header=None).values.astype(np.float32)
-        # 计算残基个数
+
         residue_count = np.count_nonzero(matrix[0, :]) + 1
 
         return img, torch.tensor(matrix), torch.tensor(residue_count, dtype=torch.float32)
