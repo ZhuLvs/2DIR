@@ -1,8 +1,8 @@
 import os
 import csv
 
-csv_folder = '../data/outduo'
-output_txt = '../data/output.txt'
+csv_folder = './data/outduo'
+output_txt = './data/output.txt'
 
 csv_files = [file for file in os.listdir(csv_folder) if file.endswith('.csv')]
 
