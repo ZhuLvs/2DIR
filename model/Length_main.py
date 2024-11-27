@@ -23,14 +23,14 @@ if __name__ == '__main__':
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.5)
 
     best_val_loss = float('inf')
-    best_model_save_path = "../result_length/best_model.pth"
-    final_model_save_path = "../result_length/final_model.pth"
+    best_model_save_path = "./result_length/best_model.pth"
+    final_model_save_path = "./result_length/final_model.pth"
     num_epochs = 340
 
 
-    train_dataset = MulDataset("../data/2DIR", "../data/contact", transform=transform)
+    train_dataset = MulDataset("./data/2DIR", "./data/contact", transform=transform)
     train_dataloader = DataLoader(train_dataset, batch_size=512, shuffle=True, num_workers=14)
-    val_dataset = MulDataset("../data/valA", "../data/valB", transform=val_transform)
+    val_dataset = MulDataset("./data/valA", "./data/valB", transform=val_transform)
     val_dataloader = DataLoader(val_dataset, batch_size=512, shuffle=False, num_workers=14)
 
     for epoch in range(num_epochs):
