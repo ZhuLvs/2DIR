@@ -21,7 +21,7 @@ cd 2DIR
 ```bash
 conda create -n 2DIR python=3.8
 conda activate 2DIR
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
 pip install -r ./install/requirements.txt
 
