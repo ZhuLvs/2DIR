@@ -38,7 +38,7 @@ if __name__ == '__main__':
     model = CustomDeepLabV3().to(device)
 
     # Load the state dict with 'module.' prefix removed
-    state_dict = torch.load("../result/best_model.pth", map_location=device)
+    state_dict = torch.load("./result/best_model.pth", map_location=device)
     new_state_dict = remove_module_prefix(state_dict)
     model.load_state_dict(new_state_dict)
 
