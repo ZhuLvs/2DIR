@@ -1,8 +1,8 @@
 import os
 import csv
 
-txt_file_path = '../data/output.txt'
-folder_path = '../data/out/'
+txt_file_path = './data/output.txt'
+folder_path = './data/out/'
 
 with open(txt_file_path, 'r') as txt_file:
     lines = txt_file.readlines()
