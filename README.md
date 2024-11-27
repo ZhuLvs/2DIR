@@ -33,6 +33,8 @@ First, you need to download the training dataset for 2DIR. [this link](https://z
 
 The PDBFliess dataset link is [this link](https://zenodo.org/records/13382753). 
 
+Then, you calculate the distance matrix (distance map) between the CA atoms of each residue in the protein PDB structure file. The calculation script can be found in the  `helper_scripts`  directory.
+
 You may manually modify the parameters in `model/main.py`.
 
 ## Training
