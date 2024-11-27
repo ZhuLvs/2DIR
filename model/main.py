@@ -20,13 +20,13 @@ if __name__ == '__main__':
     writer = SummaryWriter()
 
     best_val_loss = float('inf')
-    best_model_save_path = "../result/best_model.pth"
-    final_model_save_path = "../result/final_model.pth"
+    best_model_save_path = "./result/best_model.pth"
+    final_model_save_path = "./result/final_model.pth"
     num_epochs = 340
 
-    train_dataset = CustomDataset("../data/2DIR", "../data/contact", transform=transform)
+    train_dataset = CustomDataset("./data/2DIR", "./data/contact", transform=transform)
     train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-    val_dataset = CustomDataset("../data/valA", "../data/valB", transform=val_transform)
+    val_dataset = CustomDataset("./data/valA", "./data/valB", transform=val_transform)
     val_dataloader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 
 
