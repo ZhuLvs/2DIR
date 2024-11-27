@@ -12,7 +12,6 @@ def make_symmetric_and_zero_diag_numpy(matrix):
     matrix_symmetric = (matrix_abs + matrix_abs.T) / 2
     return matrix_symmetric
 
-
 def predict_and_save(model, img_folder, transform, device, output_folder):
     model.eval()
     with torch.no_grad():
@@ -34,6 +33,14 @@ def remove_module_prefix(state_dict):
     return {k.replace('module.', ''): v for k, v in state_dict.items()}
 
 if __name__ == '__main__':
+    # Set up directories
+    val_folder = "./data/valA"
+    output_folder = "./data/out"
+    
+    # Create output folder if it doesn't exist
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model = CustomDeepLabV3().to(device)
 
@@ -47,7 +54,5 @@ if __name__ == '__main__':
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     ])
 
-    img_folder = "./input/valA"
-    output_folder = "./input/out"
-    predict_and_save(model, img_folder, val_transform, device, output_folder)
-
+    # Call predict and save with the updated folder paths
+    predict_and_save(model, val_folder, val_transform, device, output_folder)
