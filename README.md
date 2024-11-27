@@ -31,7 +31,7 @@ pip install -r ./install/requirements.txt
 
 ## Quick Start
 
-First, you need to download the training dataset for 2DIR. [this link](https://zenodo.org/records/13382835)  and save it under the `data` directory.
+First, you need to download the training dataset for 2DIR. [this link](https://zenodo.org/records/14229784)  and save it under the `data` directory.
 
 The PDBFliess dataset link is [this link](https://zenodo.org/records/14229812). 
 
