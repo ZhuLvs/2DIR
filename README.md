@@ -5,7 +5,8 @@
 
 
 ## Updated
-Our latest dataset now contains 51,728 different proteins, all sourced from RCSB and SWISSPROT (AFDB-SWISSPROT). You can find them in the Quick Start section below, it includes the Two-Dimensional Infrared Spectroscopy (2DIR) data and PDB data for all proteins.. You will need to randomly split the dataset into training and test sets yourself.
+Our latest dataset now contains 51,728 different proteins, all sourced from RCSB and SWISSPROT (AFDB-SWISSPROT). You can find them in the Quick Start section below, it includes the Two-Dimensional Infrared Spectroscopy (2DIR) data and PDB data for all proteins.. You will need to randomly split the dataset into training and test sets yourself!
+Training the model from scratch takes approximately five minutes.
 
 ## Requirements
 Operating System: Linux (Recommended)  
@@ -41,6 +42,15 @@ The PDBFliess dataset link is [this link](https://zenodo.org/records/14229812).
 Then, you calculate the distance matrix (distance map) between the CA atoms of each residue in the protein PDB structure file. The calculation script can be found in the  `helper_scripts`  directory.
 
 You may manually modify the parameters in `model/main.py`.
+
+
+## Preparation before starting
+
+You need to download the 2DIR and PDB data using the link above, then unzip and place them in the `data` folder (data/2DIR/xxx.png, data/PDB/xxx.pdb). After that, run the script below, and it will automatically complete the data preprocessing.
+
+```bash
+bash Preprocessing.sh
+```
 
 ## Training
 Before training begins, the protein residue distance matrix needs to be padded to ensure uniform size, which facilitates model processing, accelerates training, and so on. The padding code can be found in the `helper_scripts` directory and can be modified as needed.
