@@ -60,4 +60,7 @@ def process_pdb_files(input_folder, output_folder):
 if __name__ == '__main__':
     input_folder = './data/PDB'
     output_folder = './data/contact'
+    # Create output folder if it doesn't exist
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
     process_pdb_files(input_folder, output_folder)
