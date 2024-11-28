@@ -6,8 +6,8 @@ import os
 import shutil
 import random
 
-source_folder = '../data/2DIR'
-testA_folder = '../data/valA'
+source_folder = './data/2DIR'
+testA_folder = './data/valA'
 
 file_list = os.listdir(source_folder)
 
