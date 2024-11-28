@@ -58,6 +58,6 @@ def process_pdb_files(input_folder, output_folder):
         pool.map(process_single_file, files_to_process)
 
 if __name__ == '__main__':
-    input_folder = 'PDB'
-    output_folder = 'contact'
+    input_folder = './data/PDB'
+    output_folder = './data/contact'
     process_pdb_files(input_folder, output_folder)
