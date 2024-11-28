@@ -20,13 +20,13 @@ echo "Running Calculate Distance Map.py..."
 python3 helper_scripts/Calculate\ Distance\ Map.py
 
 echo "Running Padding.py..."
-python3 helper_scripts/Padding.py
+python helper_scripts/Padding.py
 
 echo "Running Dataset_split.py..."
-python3 helper_scripts/Dataset_split.py
+python helper_scripts/Dataset_split.py
 
 echo "Running move.py..."
-python3 helper_scripts/move.py
+python helper_scripts/move.py
 
 echo "All tasks completed."
 
