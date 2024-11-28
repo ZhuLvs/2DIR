@@ -37,7 +37,7 @@ Training dataset：  `data/2DIR` `data/contact` (distance map),
 Validation dataset：   `data/valA` `data/valB`    (distance map).
 Additional test datasets can be added by the user!
 
-The PDBFliess dataset link is [this link](https://zenodo.org/records/14229812). 
+The PDBFliess dataset link is [this link](https://zenodo.org/records/14233904). 
 
 Then, you calculate the distance matrix (distance map) between the CA atoms of each residue in the protein PDB structure file. The calculation script can be found in the  `helper_scripts`  directory.
 
