@@ -73,7 +73,7 @@ bash test.sh
 ### Unknown Length Protein
 For proteins with unknown lengths, you need to run `model/pre_length.py` to predict the protein length, and then refer to the scripts in the `helper_scripts` directory for trimming and processing.
 ```bash
-bash test_len.py
+bash test_len.sh
 ```
 
 
