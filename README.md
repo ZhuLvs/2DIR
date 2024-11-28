@@ -5,7 +5,7 @@
 
 
 ## Updated
-Our latest dataset now contains 51,728 different proteins, all sourced from RCSB and SWISSPROT (AFDB-SWISSPROT). You can find them in the Quick Start section below, it includes the Two-Dimensional Infrared Spectroscopy (2DIR) data and PDB data for all proteins. You will need to randomly split the dataset into training and test sets yourself!
+Our latest dataset now contains 49,547 different proteins, all sourced from RCSB and SWISSPROT (AFDB-SWISSPROT). You can find them in the Quick Start section below, it includes the Two-Dimensional Infrared Spectroscopy (2DIR) data and PDB data for all proteins. You will need to randomly split the dataset into training and test sets yourself!
 Training the model from scratch takes approximately five minutes!
 
 ## Requirements
