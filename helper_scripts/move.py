@@ -1,9 +1,9 @@
 import os
 import shutil
 
-folder_a = '../data/valA'
-folder_b = '../data/contact'
-folder_c = '../data/valB'  #B -> C
+folder_a = './data/valA'
+folder_b = './data/contact'
+folder_c = './data/valB'  #B -> C
 
 a_file_prefixes = set()
 for filename in os.listdir(folder_a):
