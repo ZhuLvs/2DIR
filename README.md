@@ -1,13 +1,13 @@
 # 2DIR
-2DIR: Predicting protein dynamic structures using two-dimensional infrared spectroscopy, with unknown structures.
+<font color=##00FFFF size=72>AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra</font>
+ Predicting protein dynamic structures using two-dimensional infrared spectroscopy, with unknown structures.
+ 
 
 :bell:  **News**
 
 Our latest dataset now contains 49,547 different proteins, all sourced from RCSB and SWISSPROT (AFDB-SWISSPROT). You can find them in the Quick Start section below, it includes the Two-Dimensional Infrared Spectroscopy (2DIR) data and PDB data for all proteins. You will need to randomly split the dataset into training and test sets yourself!
 Training the model from scratch takes approximately five minutes!
 
-
-<font color=##00FFFF size=72>AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra</font>
 
 
 ![2DIR_model](img/2dir_image.png)
