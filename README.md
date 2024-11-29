@@ -1,4 +1,4 @@
-<font color=#00ffff size=72>color=#00ffff</font>
+<font color=##00FFFF size=72>AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra</font>
 
 
 :bell:  **News**
