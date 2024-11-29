@@ -11,6 +11,10 @@ Our latest dataset now contains 49,547 different proteins, all sourced from RCSB
 Training the model from scratch takes approximately five minutes!
 
 
+
+
+
+
 2DIR：Predicting protein dynamic structures using two-dimensional infrared spectroscopy, with unknown structures.
 
 ![2DIR_model](img/2dir_image.png)
