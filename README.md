@@ -1,6 +1,4 @@
-![Badge](https://img.shields.io/badge/AI_Protocol-lightblue)
-
-
+<font color=#00ffff size=72>color=#00ffff</font>
 
 
 :bell:  **News**
