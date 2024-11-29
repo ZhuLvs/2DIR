@@ -36,7 +36,7 @@ pip install -r ./install/requirements.txt
 
 ## Quick Start
 
-First, you need to download the training dataset for 2DIR. [this link](https://zenodo.org/records/14233899)  and save it under the `data` directory.
+🚀 First, you need to download the training dataset for 2DIR. [this link](https://zenodo.org/records/14233899)  and save it under the `data` directory.
 Training dataset：  `data/2DIR` `data/contact` (distance map),
 Validation dataset：   `data/valA` `data/valB`    (distance map).
 Additional test datasets can be added by the user!
