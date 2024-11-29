@@ -1,4 +1,4 @@
-<a href="https://example.com" style="font-weight: bold; font-size: 24px; text-decoration: none;">AI Protocol for Retrieving Protein Dynamic Structures</a>
+<h1>AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra</h1>
 
 
 
