@@ -1,4 +1,5 @@
-# AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra
+<h1 style="color: #ADD8E6;">AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra</h1>
+
 
  
 
