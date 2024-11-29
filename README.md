@@ -1,4 +1,5 @@
-<a href="https://example.com">AI Protocol for Retrieving Protein Dynamic Structures</a>
+<a href="https://example.com" style="font-weight: bold; font-size: 24px; text-decoration: none;">AI Protocol for Retrieving Protein Dynamic Structures</a>
+
 
 
 
