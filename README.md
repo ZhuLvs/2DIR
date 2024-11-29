@@ -1,3 +1,5 @@
+<h2 style="color: lightblue; font-size: 36px;">AI Protocol for Retrieving Protein Dynamic Structures from Two-Dimensional Infrared Spectra</h2>
+
 # 2DIR
 2DIR: Predicting protein dynamic structures using two-dimensional infrared spectroscopy, with unknown structures.
 
