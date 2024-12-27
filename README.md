@@ -10,6 +10,9 @@ Our latest dataset now contains 49,547 different proteins, all sourced from RCSB
 Training the model from scratch takes approximately five minutes!
 
 
+We tested the model's ability to transfer to proteins with 100 to 150 residues, and the complete dataset link is: [this link](https://zenodo.org/records/14561794). 
+
+
 
 
 
